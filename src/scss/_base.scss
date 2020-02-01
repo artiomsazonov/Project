@@ -286,7 +286,7 @@ hr.type {
   padding-bottom: 60px;
 
   .scroll {
-    margin-top: 20px;
+    margin: 20px 0 0 10px;
     display: flex;
     justify-content: space-around;
 
@@ -797,8 +797,13 @@ hr.type {
 }
 
 @media screen and (max-width: 440px) {
+  .header .header_bottom-flex .logo img {
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+}
   .section_hover .heading {
-    top: 102px;
+    top: 157px;
     right: 0%;
   }
 
@@ -826,11 +831,11 @@ hr.type {
     .owl-carousel {
       .owl-item {
         .owl-items {
-          padding-left: 16%;
+          padding-left: 18%;
 
           .hb-postmeta,
           p {
-            padding-right: 15%;
+            padding-right: 19%;
           }
         }
       }
@@ -845,4 +850,7 @@ hr.type {
   .pros .scroll .flex-scroll {
     margin: 1% 0 3% 1px;
   }
+  .footer_top .flex-top .sides img[src="img/log.PNG"] {
+ 
+    padding: 30px 0 25px 10px;}
 }
